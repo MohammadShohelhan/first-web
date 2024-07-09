@@ -12,6 +12,7 @@
 body{
   max-width: 1440px;
   margin: 0 auto;
+  /* background-color: rgba(128, 255, 0, 0.336); */
 
 }
 
@@ -125,7 +126,13 @@ header{
 
     /* development section start here  */
 
-   
+   main{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
 
     .development{
         padding: 80px 97px;  
@@ -138,19 +145,17 @@ header{
     
       
     }
-    .container{
+    .card-container{
        
          display: flex;
          flex-direction: column;
          justify-content: center;
          align-items: center;
          gap: 32px;
-       
-       
+        
     }
     .content{
       width: 946px;
-    
       padding-bottom:0 ;
     
     }
@@ -192,7 +197,7 @@ header{
 
   
 .inspiration{
-  margin: 0 auto;
+  margin: 2rem auto;
   width: 1140px;
    height: 777px;
  
@@ -210,3 +215,69 @@ header{
   }
 }
 
+
+
+ /* <!-- =========next target section start here========== --> */
+
+.current-target{
+ width: 1140px;
+ margin: 6rem;
+
+
+
+}
+
+
+.target-cards{
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+.target-card{
+
+width: 355px;
+height: 300px;
+padding: 30px;
+border-radius: 10px;
+background-color: rgba(214, 204, 137, 0.596);
+
+
+
+}
+
+.target-card img{
+  margin-bottom: 20px;
+}
+
+.one{
+  background-color:rgba(236, 164, 164, 0.479) ;
+}
+
+.two{
+  background-color:rgba(145, 189, 214, 0.479) ;
+}
+
+
+.next-card{
+  width: 1140px;
+  height: 220px;
+display: flex;
+justify-content: left;
+align-items: center;
+border-radius: 10px;
+border: 1px solid gray;
+margin-bottom:25px ;
+padding: 30px;
+}
+
+.next-card img{
+  width: 94.78px;
+  height: 84.41px;
+}
+
+.support-section{
+  width: 1140px;
+height: 314px;
+background-image: url(images/handshake.jpg)
+}
